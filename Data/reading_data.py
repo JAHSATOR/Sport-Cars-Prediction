@@ -6,4 +6,7 @@ def process_data(file_path: str) -> pd.DataFrame:
   df = pd.read_csv(file_path)
   return df
 
+df = process_data('Data/sales_data.csv')
+
+print(df.head())
 
